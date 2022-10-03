@@ -21,4 +21,4 @@ class MyClient(discord.Client):
   if message.content == 'x!info':
   await message.channel.send(f'{message.author.name} informações do bot:{os.linesep} olá eu sou um bot!:{os.linesep} bot de moderação!:{os.linesep} bot de divulgação:{os.linesep} bot nuke e muito mas...')
 client = MyClient(intents=intents)
-client.run('MTAyMDM4MjUxNDc5NzM1MDkxMg.GMMJlY.HL4kwXO7_58FfVKD8KMqPFaK-fR-5Q_P1lMO2o')
+client.run('.token do seu bot discord!!')
